@@ -18,7 +18,7 @@ class Testmessage(TestCase):
         self.validate = self.message.validate()
 
     def test_message_validation_is_true(self):
-        self.assertEqual(True, self.validate)
+        self.assertTrue(self.validate)
 
     def test_message_validation_is_false(self):
         with self.assertRaises(InvalidMessage):
