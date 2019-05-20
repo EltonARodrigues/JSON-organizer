@@ -1,6 +1,6 @@
 from ast import literal_eval
 from datetime import datetime, timedelta
-from exception import InvalidMessage
+from .exception import InvalidMessage
 import os
 import datetime
 import json
